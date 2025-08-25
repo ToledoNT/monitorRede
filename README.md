@@ -18,11 +18,11 @@ python3 -m venv ~/rede_venv
 source ~/rede_venv/bin/activate
 pip install scapy mac-vendor-lookup
 
-Execução
+## Execução
 sudo ~/rede_venv/bin/python ~/Documents/Github/MonitorRede/monitor_rede.py
 Todos os logs serão salvos em dispositivos_rede.json.
 
-Observações
+## Observações
 O script precisa de sudo para realizar o escaneamento ARP.
 Apenas dispositivos ativos na rede serão detectados.
 O histórico de dispositivos é mantido no arquivo dispositivos_rede.json.
